@@ -35,7 +35,6 @@ while output != aim:
 
 if output == aim:
     print('successfully connected to {}'.format(aim))
+    os.system('say "successfully connected"')
 else:
     print('please restart, something bad happened')
-
-os.system('say "successfully connected"')
