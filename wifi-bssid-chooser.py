@@ -48,6 +48,8 @@ if output == aim:
 else:
     print('please restart, something bad happened')
 
-os.system('say "successfully connected"')
-
+try:
+    os.system('say "successfully connected"')
+except:
+    pass
 
