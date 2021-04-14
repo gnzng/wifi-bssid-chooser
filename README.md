@@ -1,6 +1,6 @@
 # wifi-bssid-chooser
 
-Small code snippet for choosing a specific BSSID in roaming networks, which can be sometimes hard with versions of macOS. The script does it by turning the WIFI connection off and on, reconnecting, and comparing the BSSIDs. 
+Small code snippet for choosing a specific BSSID in roaming networks, which can be sometimes hard with versions of macOS. The script does it by turning the WIFI connection off and on, reconnecting, and comparing the BSSIDs. It gives an audio feedback. 
 
 For often used connections, you can change the BSSID in the wifi-bssid-chooser.py here:
 ```python
