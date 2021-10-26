@@ -11,10 +11,10 @@ print(out)
 
 print('make sure it is the only network your mac is able to connect to\n\n')
 
-aim =  str(raw_input('enter bssid to connect to in roaming network:\n')).lower()
+aim =  str(input('enter bssid to connect to in roaming network:\n')).lower()
 
 if aim == '':
-    aim =  '00:00:00:00:00:00'.lower()    #for often used connection
+    aim =  'e0:1c:fc:cb:ba:3f'.lower()    #for often used connection
     print('try to connect to {}'.format(aim))
 
 def get_bssid():
